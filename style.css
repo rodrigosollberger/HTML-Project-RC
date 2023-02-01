@@ -108,7 +108,24 @@ footer{
   padding: .5rem;
 }
 
+#cooking, #sport {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 0.2rem;
+}
 
+#dog, #travel {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  gap: 0.2rem;
+}
+
+#rugbyimage, #dogimage, #cookingimage, #travelimage {
+  width: 10rem;
+  height: 10rem;
+}
 
 
 
